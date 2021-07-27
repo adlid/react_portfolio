@@ -21,16 +21,16 @@ function ImageSection() {
                 </p>
                 <div className="about-info">
                     <div className="info-title">
-                        <p>Имя</p>
-                        <p>Возраст</p>
+                        <p  >Имя</p>
+                        <p className="m-bt">Возраст</p>
                         <p>Национальность </p>
                         <p>Языки </p>
-                        <p className="m-bt">Адрес</p>
+                        <p className="m-bt" >Адрес</p>
                       
                     </div>
                     <div className="info">
                         <p>: Азимбекулы Бакдаулет</p>
-                        <p>: 36</p>
+                        <p>: 20</p>
                         <p>: казах </p>
                         <p>: Казахский, русский, англиский, турецкий </p>
                         <p>: Алматы</p>

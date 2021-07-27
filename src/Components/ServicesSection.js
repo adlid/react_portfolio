@@ -22,7 +22,7 @@ function ServicesSection() {
                         <ServiceCard 
                             image={intelligence} 
                             title={'Relaxing'} 
-                            paragraph={'Люблю горы за разнообразие картинки. Здесь чистый воздух, благодаря которому я могу спокойно гулять с дружным коллективом'}
+                            paragraph={"Люблю горы за разнообразие картинки. Здесь чистый воздух, благодаря которому я могу спокойно гулять с дружным коллективом.И еще i'm chilling when i draw"}
                         />
                     </div>
                     <ServiceCard 

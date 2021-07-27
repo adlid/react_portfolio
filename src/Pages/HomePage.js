@@ -2,23 +2,21 @@ import React from 'react'
 import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
-import Particles from '../../node_modules/react-particles-js/umd/particles';
+import Particle from '../Components/Particle';
+
 
 function HomePage() {
     return (
         <HomePageStyled>
             <div className="particle-con">
-                <Particles />
+               <Particle />
             </div>
             <div className="typography">
-                <h1>Хм Привет Меня зовут <span>Бакдаулет</span></h1>
+                <h1> Привет меня зовут <span>Бакдаулет</span></h1>
                 <p>
-                   Скоро вы узнаете
+                   Скоро вы узнаете...
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
-                    </a>
                     <a href="https://github.com/adlid" className="icon i-github">
                         <GithubIcon />
                     </a>

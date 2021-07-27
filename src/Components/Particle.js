@@ -1,4 +1,4 @@
-import Particles from 'react-particles-js';
+import Particles from '../../node_modules/react-particles-js/umd/particles';
 
 import React from 'react';
 
