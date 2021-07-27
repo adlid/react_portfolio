@@ -7,16 +7,15 @@ import ReviewItem from './ReviewItem';
 function ReviewsSetion() {
     return (
         <ReviewsStyled>
-            <Title title={'Reviews'} span={'Reviews'} />
+            <Title title={'Отзывы HR-ов'} span={'Отзывы HR-ов'} />
             <InnerLayout>
                 <div className="reviews">
                     <ReviewItem 
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt culpa ad itaque quas?'} 
+                        text={'Скоро...(после изучения Node.js)'} 
                     />
                     <ReviewItem 
-                        text={'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt culpa ad itaque quas? Dos ir por culpa ad itaque quas!'} 
+                        text={'Скоро...(после изучения Node.js)'} 
                     />
-                    
                 </div>
             </InnerLayout>
         </ReviewsStyled>

@@ -12,52 +12,52 @@ function Resume() {
     const school = <SchoolIcon />
     return (
         <ResumeStyled>
-            <Title title={'Resume'} span={'resume'} />
+            <Title title={'Резюме'} span={'резюме'} />
             <InnerLayout>
                 <div className="small-title">
-                    <SmallTitle icon={briefcase} title={'Working Experience'} />
+                    <SmallTitle icon={briefcase} title={'Опыт работы'} />
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2021 февраль - 2021 май'} 
+                        title={'Frontend Devoloper'}
+                        subTitle={'Arkenstone'}
+                        text={'Реальный опыт по верстке и по фронтенду. Интересные задачки'} 
                     />
                     <ResumeItem 
-                        year={'2015 - Present'} 
+                        year={'2021 январь - 2021 февраль'} 
                         title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        subTitle={'Zerone-technologies'}
+                        text={'1 неделя для изучение Bitrix-24 дальше задачки по PHP, Фиксить баги по js на хостинге. В конце не понравился делать сайты готовым шаблоном и дальше некуда развиваться'} 
                     />
                     <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2020 сентьябрь - Сейчас'} 
+                        title={'Фрилансер'}
+                        subTitle={'Заказы'}
+                        text={'Делаю универские проекты на С#, MySQL. Делаю сайты по задачке. Был преподом для одного студента, по frontend dev'} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={school} title={'Educational Qualifications'} />
+                    <SmallTitle icon={school} title={'Образование'} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'201 - 2022'} 
-                        title={'Computer Science Degree'}
-                        subTitle={'Sussex University'}
+                        year={'2019 - Сейчас'} 
+                        title={'Курсы'}
+                        subTitle={'You tube'}
+                        text={'React with Dimitch или Samurai js топчик. Javascrpt mastery. And some indian guys). Udemy потом узнал что есть слив курсы)'} 
+                    />
+                    <ResumeItem 
+                        year={'2018 - 2022'} 
+                        title={'Университет'}
+                        subTitle={'СДУ'}
                         text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
                     />
                     <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2007 - 2018'} 
+                        title={'Школа'}
+                        subTitle={'СШ им Амангельды'}
+                        text={'Учился в обычной  школе. Был отличником, набрал 125 из 140 и поступил на грант'} 
                     />
                 </div>
             </InnerLayout>

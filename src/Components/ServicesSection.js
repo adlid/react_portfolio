@@ -11,24 +11,24 @@ function ServicesSection() {
     return (
         <InnerLayout>
             <ServicesSectionStyled>
-                <Title title={'Services'} span={'services'} />
+                <Title title={'Хобби'} span={'хобби'} />
                 <div className="services">
                     <ServiceCard 
                         image={design} 
-                        title={'Web Design'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'Programming'} 
+                        paragraph={"Смотреть фичи CSS и JS. Любимый канал 'Online Tutorials'. Статьи про JS(medium.com, habr.com)"}
                     />
                     <div className="mid-card">
                         <ServiceCard 
                             image={intelligence} 
-                            title={'Artificial Intelligence'} 
-                            paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                            title={'Relaxing'} 
+                            paragraph={'Люблю горы за разнообразие картинки. Здесь чистый воздух, благодаря которому я могу спокойно гулять с дружным коллективом'}
                         />
                     </div>
                     <ServiceCard 
                         image={gamedev} 
-                        title={'Game Development'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'Games'} 
+                        paragraph={'CS:GO, Футбол, Баскетбол'}
                     />
                 </div>
             </ServicesSectionStyled>
