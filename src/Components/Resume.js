@@ -51,7 +51,7 @@ function Resume() {
                         year={'2018 - 2022'} 
                         title={'Университет'}
                         subTitle={'СДУ'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        text={'Бакалавр ВТиПО. Мои знакомые познакомили меня с фронтендом и мои путь начиналсяя с университета'} 
                     />
                     <ResumeItem 
                         year={'2007 - 2018'} 
