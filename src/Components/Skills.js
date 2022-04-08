@@ -13,8 +13,8 @@ function Skills() {
                     <div className="skills">
                         <ProgressBar 
                             title={'HTML5(PUG)'}
-                            width={'59.9%'}
-                            text={'59.9%'}
+                            width={'79.9%'}
+                            text={'79.9%'}
                         />
                         <ProgressBar 
                             title={'CSS3(SASS)'}
@@ -23,23 +23,48 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
-                            width={'55.9%'}
-                            text={'55.9%'}
-                        />
-                        <ProgressBar 
-                            title={'PHP'}
-                            width={'15%'}
-                            text={'15%'}
+                            width={'69.9%'}
+                            text={'69.9%'}
                         />
                         <ProgressBar 
                             title={'GIT'}
-                            width={'16%'}
-                            text={'16%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                         <ProgressBar 
                             title={'React JS'}
-                            width={'39.9%'}
-                            text={'39.9%'}
+                            width={'49.9%'}
+                            text={'49.9%'}
+                        />
+                        <ProgressBar
+                            title={'Redux'}
+                            width={'49.9%'}
+                            text={'49.9%'}
+                        />
+                        <ProgressBar
+                            title={'Mobx'}
+                            width={'49.9%'}
+                            text={'49.9%'}
+                        />
+                        <ProgressBar
+                            title={'AntDesign'}
+                            width={'69.9%'}
+                            text={'69.9%'}
+                        />
+                        <ProgressBar
+                            title={'RestAPI'}
+                            width={'69.9%'}
+                            text={'69.9%'}
+                        />
+                        <ProgressBar
+                            title={'MUI'}
+                            width={'19.9%'}
+                            text={'19.9%'}
+                        />
+                        <ProgressBar
+                            title={'PHP'}
+                            width={'15%'}
+                            text={'15%'}
                         />
                         <ProgressBar 
                             title={'MySQL'}

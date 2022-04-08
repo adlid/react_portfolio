@@ -18,20 +18,26 @@ function Resume() {
                     <SmallTitle icon={briefcase} title={'Опыт работы'} />
                 </div>
                 <div className="resume-content">
+                    <ResumeItem
+                        year={'2021 февраль - 2021 май'}
+                        title={'Frontend Devoloper'}
+                        subTitle={'UCO'}
+                        text={'B2B сайт приложение на React'}
+                    />
                     <ResumeItem 
                         year={'2021 февраль - 2021 май'} 
                         title={'Frontend Devoloper'}
-                        subTitle={'Arkenstone'}
+                        subTitle={'WffKz'}
                         text={'Реальный опыт по верстке и по фронтенду. Интересные задачки'} 
                     />
-                    <ResumeItem 
-                        year={'2021 январь - 2021 февраль'} 
+                    <ResumeItem
+                        year={'2021 январь - 2021 февраль'}
                         title={'Full Stack Developer'}
                         subTitle={'Zerone-technologies'}
-                        text={'1 неделя для изучение Bitrix-24 дальше задачки по PHP, Фиксить баги по js на хостинге. В конце не понравился делать сайты готовым шаблоном и дальше некуда развиваться'} 
+                        text={'1 неделя для изучение Bitrix-24 дальше задачки по PHP, Фиксить баги по js на хостинге. В конце не понравился делать сайты готовым шаблоном и дальше некуда развиваться'}
                     />
                     <ResumeItem 
-                        year={'2020 сентьябрь - Сейчас'} 
+                        year={'2020 сентьябрь - 2021 лето'}
                         title={'Фрилансер'}
                         subTitle={'Заказы'}
                         text={'Делаю универские проекты на С#, MySQL. Делаю сайты по задачке. Был преподом для одного студента, по frontend dev'} 
